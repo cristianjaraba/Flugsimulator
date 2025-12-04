@@ -43,20 +43,19 @@ Die Flugzeuge werden in einer Db4o‑Objektdatenbank gespeichert und können üb
 ## Projektstruktur
 
 Flugsimulator/
- ├─ README.md                 # Projektdokumentation
- ├─ .gitignore                
- ├─ .gitattributes           
- ├─ Flugsimulator.slnx        # Visual Studio Projektdatei
+ ├─ README.md
+ ├─ .gitignore
+ ├─ .gitattributes
+ ├─ Flugsimulator.slnx
  ├─ docs/
- │   └─ images/               # Screenshots für das README
+ │   └─ images/
  │       ├─ flug_laden1.png
  │       ├─ flug_laden2.png
  │       ├─ fluege_abrufen.png
  │       ├─ start_fluege.png
  │       └─ landung.png
  └─ Quellcode-Dateien (.cs, .xaml)
-
-
+ 
 ---
 
 ## Hinweis
