@@ -62,7 +62,6 @@ Flugsimulator/
 
 ## Hinweis
 Die Screenshots liegen im Ordner `docs/images/`.  
-Im README werden sie automatisch eingebunden und auf GitHub angezeigt.
 
 ---
 
