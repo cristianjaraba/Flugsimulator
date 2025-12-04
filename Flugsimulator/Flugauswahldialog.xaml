@@ -1,0 +1,43 @@
+﻿<Window x:Class="Flugsimulator.Flugauswahldialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        xmlns:local="clr-namespace:Flugsimulator"
+        mc:Ignorable="d" 
+        d:DesignHeight="200" d:DesignWidth="400"
+        Width="400" Height="225"
+        Title="Flugauswahldialog">
+
+    <!-- Hintergrundfarbe des Fensters -->
+    <Window.Background>
+        <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.InactiveCaptionColorKey}}"/>
+    </Window.Background>
+
+    <Grid>
+        <!-- Layout: 3 Spalten, 3 Zeilen -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <!-- Hinweistext -->
+        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" 
+               Content="Bitte wählen Sie aus dem Feld den gewünschten Flug aus:" 
+               HorizontalContentAlignment="Center" Margin="0,10,0,0" />
+
+        <!-- Auswahlfeld für Flüge -->
+        <ComboBox x:Name="cmbFlugAuswahl" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Margin="30,20,30,20"/>
+
+        <!-- Buttons für Aktionen -->
+        <Button x:Name="btnÜbernehmen" Grid.Row="2" Grid.Column="0" 
+                Content="Übernehmen" Margin="10,30,0,10" Click="btnÜbernehmen_Click" />
+        <Button Grid.Row="2" Grid.Column="2" Content="Abbrechen" Margin="0,30,10,10" IsCancel="True"/>
+    </Grid>
+</Window>
