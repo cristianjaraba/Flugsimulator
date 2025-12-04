@@ -69,3 +69,8 @@ Im README werden sie automatisch eingebunden und auf GitHub angezeigt.
 ## Hintergrund
 Dieses Projekt entstand im Rahmen meiner Weiterbildung zum Fachinformatiker für Anwendungsentwicklung (ILS Hamburg, Abschluss 2025).
 
+---
+
+## Kontakt
+LinkedIn: [Cristian Jaraba Castilla](https://www.linkedin.com/in/cristian-jaraba-castilla/)
+
