@@ -42,6 +42,17 @@ Die Flugzeuge werden in einer Db4o‑Objektdatenbank gespeichert und können üb
 
 ## Projektstruktur
 
+Flugsimulator/
+ ├─ README.md
+ ├─ docs/
+ │   └─ images/
+ │       ├─ flug_laden1.png
+ │       ├─ flug_laden2.png
+ │       ├─ fluege_abrufen.png
+ │       ├─ start_fluege.png
+ │       └─ landung.png
+ └─ Quellcode-Dateien (.cs, .xaml)
+
 ---
 
 ## Hinweis
