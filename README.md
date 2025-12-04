@@ -41,3 +41,15 @@ Die Flugzeuge werden in einer Db4o‑Objektdatenbank gespeichert und können üb
 ---
 
 ## Projektstruktur
+
+---
+
+## Hinweis
+Die Screenshots liegen im Ordner `docs/images/`.  
+Im README werden sie automatisch eingebunden und auf GitHub angezeigt.
+
+---
+
+## Hintergrund
+Dieses Projekt entstand im Rahmen meiner Weiterbildung zum Fachinformatiker für Anwendungsentwicklung (ILS Hamburg, Abschluss 2025).
+
