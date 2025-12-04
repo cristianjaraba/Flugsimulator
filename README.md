@@ -42,7 +42,8 @@ Die Flugzeuge werden in einer Db4o‑Objektdatenbank gespeichert und können üb
 
 ## Projektstruktur
 
-```Flugsimulator/
+```
+Flugsimulator/
  ├─ README.md
  ├─ .gitignore
  ├─ .gitattributes
@@ -54,7 +55,8 @@ Die Flugzeuge werden in einer Db4o‑Objektdatenbank gespeichert und können üb
  │       ├─ fluege_abrufen.png
  │       ├─ start_fluege.png
  │       └─ landung.png
- └─ Quellcode-Dateien (.cs, .xaml)```
+ └─ Quellcode-Dateien (.cs, .xaml)
+```
  
 ---
 
