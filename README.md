@@ -66,7 +66,7 @@ Die Screenshots liegen im Ordner `docs/images/`.
 ---
 
 ## Hintergrund
-Dieses Projekt entstand im Rahmen meiner Weiterbildung zum Fachinformatiker für Anwendungsentwicklung (ILS Hamburg, Abschluss 2025).
+Dieses Projekt entstand im Rahmen meiner Weiterbildung in der Anwendungsentwicklung (ILS Hamburg, Abschluss 2025).
 
 ---
 
